@@ -56,7 +56,7 @@ while salir == False:
         print "+-----------------------------+"
         sal = arbol.xpath('escrutinio_sitio/partido')
         for i in sal:
-            print i
+            print i.text
         print "El número de partidos que se han presentado es:"
         raw_input("Pulse enter para continuar")
         
