@@ -1,415 +1,415 @@
 <escrutinio_sitio>
-<num_a_elegir>208</num_a_elegir>
-<nombre_lugar>Senado</nombre_lugar>
-<nombre_disputado>escaÒos</nombre_disputado>
-<porciento_escrutado>99.9</porciento_escrutado>
-<nombre_sitio>Total EspaÒa</nombre_sitio>
-<ts>1450666277</ts>
-<tipo_sitio>1</tipo_sitio>
-<votos>
-<contabilizados>
-<cantidad>24867744</cantidad>
-<porcentaje>71.88</porcentaje>
-</contabilizados>
-<abstenciones>
-<cantidad>9730667</cantidad>
-<porcentaje>28.12</porcentaje>
-</abstenciones>
-<nulos>
-<cantidad>800853</cantidad>
-<porcentaje>3.22</porcentaje>
-</nulos>
-<blancos>
-<cantidad>978313</cantidad>
-<porcentaje>4.06</porcentaje>
-</blancos>
-</votos>
-<resultados>
-<numero_partidos>55</numero_partidos>
-<partido>
-<id_partido>3316</id_partido>
-<nombre>PP</nombre>
-<electos>124</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>3484</id_partido>
-<nombre>PSOE</nombre>
-<electos>47</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>3736</id_partido>
-<nombre>PODEMOS</nombre>
-<electos>16</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>5063</id_partido>
-<nombre>ERC-CATSI</nombre>
-<electos>6</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4991</id_partido>
-<nombre>DL</nombre>
-<electos>6</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>1533</id_partido>
-<nombre>PNV</nombre>
-<electos>6</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4744</id_partido>
-<nombre>CCa-PNC</nombre>
-<electos>1</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4969</id_partido>
-<nombre>CAMBIO-ALDAKETA</nombre>
-<electos>1</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>325</id_partido>
-<nombre>ASG</nombre>
-<electos>1</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4715</id_partido>
-<nombre>UxGC</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4714</id_partido>
-<nombre>UNIDAD DEL PUEBLO Y ALTERNATIVA REPUBLICANA</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4772</id_partido>
-<nombre>PAÕS VALENCI¿</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4896</id_partido>
-<nombre>EU-eX</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4850</id_partido>
-<nombre>UNIDAD POPULAR EN COM⁄N</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4713</id_partido>
-<nombre>AJU</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4688</id_partido>
-<nombre>VOX</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>3992</id_partido>
-<nombre>SOLUCIONA</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>3985</id_partido>
-<nombre>SAIn</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4003</id_partido>
-<nombre>SOMVAL</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4223</id_partido>
-<nombre>unio.cat</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4475</id_partido>
-<nombre>UPYD</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4911</id_partido>
-<nombre>RECORTES CERO-GRUPO VERDE</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4928</id_partido>
-<nombre>SOM MENORCA</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>5057</id_partido>
-<nombre>ESQ</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>5060</id_partido>
-<nombre>EN POSITIU</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>5062</id_partido>
-<nombre>Independientes-F.I.A.</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>5026</id_partido>
-<nombre>N”S</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>5011</id_partido>
-<nombre>AVANT</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4964</id_partido>
-<nombre>PARTICIPACI”N CIUDADANA</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>4976</id_partido>
-<nombre>M…S</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>3755</id_partido>
-<nombre>PUM+J</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>1471</id_partido>
-<nombre>EB</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>1412</id_partido>
-<nombre>EL PI</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>1528</id_partido>
-<nombre>EH Bildu</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>1550</id_partido>
-<nombre>PFyV</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>1543</id_partido>
-<nombre>FE de las JONS</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>1335</id_partido>
-<nombre>D.N.</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>1079</id_partido>
-<nombre>C's</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>774</id_partido>
-<nombre>BAR</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>735</id_partido>
-<nombre>BADAJOZ ADELANTE</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>993</id_partido>
-<nombre>CCD</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>1033</id_partido>
-<nombre>CILUS</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>1070</id_partido>
-<nombre>CRA</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>1600</id_partido>
-<nombre>FDEE</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>2171</id_partido>
-<nombre>I.Fem</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>3237</id_partido>
-<nombre>P-LIB</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>3047</id_partido>
-<nombre>PH</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>3377</id_partido>
-<nombre>PREPAL</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>2829</id_partido>
-<nombre>PT</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>2816</id_partido>
-<nombre>P.C.P.E.</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>2394</id_partido>
-<nombre>LIBERTATE NAFARRA</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>2189</id_partido>
-<nombre>I.M.C.</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>2442</id_partido>
-<nombre>CENTRO MODERADO</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>2624</id_partido>
-<nombre>PARTIDO POLÕTICO</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-<partido>
-<id_partido>2744</id_partido>
-<nombre>PACMA</nombre>
-<electos>0</electos>
-<votos_numero>0</votos_numero>
-<votos_porciento>0</votos_porciento>
-</partido>
-</resultados>
+    <num_a_elegir>208</num_a_elegir>
+    <nombre_lugar>Senado</nombre_lugar>
+    <nombre_disputado>esca√±os</nombre_disputado>
+    <porciento_escrutado>99.9</porciento_escrutado>
+    <nombre_sitio>Total Espa√±a</nombre_sitio>
+    <ts>1450666277</ts>
+    <tipo_sitio>1</tipo_sitio>
+    <votos>
+        <contabilizados>
+            <cantidad>24867744</cantidad>
+            <porcentaje>71.88</porcentaje>
+        </contabilizados>
+        <abstenciones>
+            <cantidad>9730667</cantidad>
+            <porcentaje>28.12</porcentaje>
+        </abstenciones>
+        <nulos>
+            <cantidad>800853</cantidad>
+            <porcentaje>3.22</porcentaje>
+        </nulos>
+        <blancos>
+            <cantidad>978313</cantidad>
+            <porcentaje>4.06</porcentaje>
+        </blancos>
+    </votos>
+    <resultados>
+        <numero_partidos>55</numero_partidos>
+        <partido>
+            <id_partido>3316</id_partido>
+            <nombre>PP</nombre>
+            <electos>124</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>3484</id_partido>
+            <nombre>PSOE</nombre>
+            <electos>47</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>3736</id_partido>
+            <nombre>PODEMOS</nombre>
+            <electos>16</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>5063</id_partido>
+            <nombre>ERC-CATSI</nombre>
+            <electos>6</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4991</id_partido>
+            <nombre>DL</nombre>
+            <electos>6</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>1533</id_partido>
+            <nombre>PNV</nombre>
+            <electos>6</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4744</id_partido>
+            <nombre>CCa-PNC</nombre>
+            <electos>1</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4969</id_partido>
+            <nombre>CAMBIO-ALDAKETA</nombre>
+            <electos>1</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>325</id_partido>
+            <nombre>ASG</nombre>
+            <electos>1</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4715</id_partido>
+            <nombre>UxGC</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4714</id_partido>
+            <nombre>UNIDAD DEL PUEBLO Y ALTERNATIVA REPUBLICANA</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4772</id_partido>
+            <nombre>PA√çS VALENCI√Ä</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4896</id_partido>
+            <nombre>EU-eX</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4850</id_partido>
+            <nombre>UNIDAD POPULAR EN COM√öN</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4713</id_partido>
+            <nombre>AJU</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4688</id_partido>
+            <nombre>VOX</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>3992</id_partido>
+            <nombre>SOLUCIONA</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>3985</id_partido>
+            <nombre>SAIn</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4003</id_partido>
+            <nombre>SOMVAL</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4223</id_partido>
+            <nombre>unio.cat</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4475</id_partido>
+            <nombre>UPYD</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4911</id_partido>
+            <nombre>RECORTES CERO-GRUPO VERDE</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4928</id_partido>
+            <nombre>SOM MENORCA</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>5057</id_partido>
+            <nombre>ESQ</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>5060</id_partido>
+            <nombre>EN POSITIU</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>5062</id_partido>
+            <nombre>Independientes-F.I.A.</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>5026</id_partido>
+            <nombre>N√ìS</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>5011</id_partido>
+            <nombre>AVANT</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4964</id_partido>
+            <nombre>PARTICIPACI√ìN CIUDADANA</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>4976</id_partido>
+            <nombre>M√âS</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>3755</id_partido>
+            <nombre>PUM+J</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>1471</id_partido>
+            <nombre>EB</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>1412</id_partido>
+            <nombre>EL PI</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>1528</id_partido>
+            <nombre>EH Bildu</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>1550</id_partido>
+            <nombre>PFyV</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>1543</id_partido>
+            <nombre>FE de las JONS</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>1335</id_partido>
+            <nombre>D.N.</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>1079</id_partido>
+            <nombre>C's</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>774</id_partido>
+            <nombre>BAR</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>735</id_partido>
+            <nombre>BADAJOZ ADELANTE</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>993</id_partido>
+            <nombre>CCD</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>1033</id_partido>
+            <nombre>CILUS</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>1070</id_partido>
+            <nombre>CRA</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>1600</id_partido>
+            <nombre>FDEE</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>2171</id_partido>
+            <nombre>I.Fem</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>3237</id_partido>
+            <nombre>P-LIB</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>3047</id_partido>
+            <nombre>PH</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>3377</id_partido>
+            <nombre>PREPAL</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>2829</id_partido>
+            <nombre>PT</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>2816</id_partido>
+            <nombre>P.C.P.E.</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>2394</id_partido>
+            <nombre>LIBERTATE NAFARRA</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>2189</id_partido>
+            <nombre>I.M.C.</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>2442</id_partido>
+            <nombre>CENTRO MODERADO</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>2624</id_partido>
+            <nombre>PARTIDO POL√çTICO</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+        <partido>
+            <id_partido>2744</id_partido>
+            <nombre>PACMA</nombre>
+            <electos>0</electos>
+            <votos_numero>0</votos_numero>
+            <votos_porciento>0</votos_porciento>
+        </partido>
+    </resultados>
 </escrutinio_sitio>

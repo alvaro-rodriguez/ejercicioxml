@@ -17,6 +17,10 @@
 #import xpath
 import os
 from lxml import etree
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 
 #Carga el fichero xml en una variable
 arbol = etree.parse('ficheroxml.xml')
@@ -37,7 +41,7 @@ while salir == False:
     print "|  -Conteo de partidos - 4                  |"
     print "|  -Conteo de partidos - 5                  |"
     print "|                                           |"
-    print "|(Para salir usal la letra 'q')             |"
+    print "|(Para salir usar la letra 'q')             |"
     print "+-------------------------------------------+"
     respuesta = raw_input("respuesta: ")
 
@@ -45,7 +49,39 @@ while salir == False:
     if respuesta == "q":
         salir = True
 
-    elif respuesta == 1:
+    elif respuesta == "1":
+        os.system('clear')
+        print "+-----------------------------+"
+        print "| Conteo de partidos.         |"
+        print "+-----------------------------+"
+        sal = arbol.xpath('escrutinio_sitio/partido')
+        for i in sal:
+            print i
+        print "El número de partidos que se han presentado es:"
+        raw_input("Pulse enter para continuar")
+        
+    elif respuesta == "2":
+        os.system('clear')
+        print "+-----------------------------+"
+        print "| Conteo de partidos.         |"
+        print "+-----------------------------+"
+        raw_input("Pulse enter para continuar")
+
+    elif respuesta == "3":
+        os.system('clear')
+        print "+-----------------------------+"
+        print "| Conteo de partidos.         |"
+        print "+-----------------------------+"
+        raw_input("Pulse enter para continuar")
+
+    elif respuesta == "4":
+        os.system('clear')
+        print "+-----------------------------+"
+        print "| Conteo de partidos.         |"
+        print "+-----------------------------+"
+        raw_input("Pulse enter para continuar")
+
+    elif respuesta == "5":
         os.system('clear')
         print "+-----------------------------+"
         print "| Conteo de partidos.         |"
