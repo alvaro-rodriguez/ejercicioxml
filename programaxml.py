@@ -36,8 +36,8 @@ while salir == False:
     print "|                                           |"
     print "|  Opciones disponibles:                    |"
     print "|  -Conteo de partidos - 1                  |"
-    print "|  -Conteo de partidos - 2                  |"
-    print "|  -Conteo de partidos - 3                  |"
+    print "|  -Número de electos por partido - 2       |"
+    print "|  -Datos concretos de un partido - 3       |"
     print "|  -Conteo de partidos - 4                  |"
     print "|  -Conteo de partidos - 5                  |"
     print "|                                           |"
@@ -54,36 +54,60 @@ while salir == False:
         print "+-----------------------------+"
         print "| Conteo de partidos.         |"
         print "+-----------------------------+"
-        sal = arbol.xpath('escrutinio_sitio/partido')
-        for i in sal:
-            print i.text
-        print "El número de partidos que se han presentado es:"
+        hojas = arbol.xpath('/escrutinio_sitio/resultados/partido/nombre')
+        print "El número de partidos que se han presentado es: %i " %(len(hojas))
         raw_input("Pulse enter para continuar")
         
+
+
     elif respuesta == "2":
         os.system('clear')
-        print "+-----------------------------+"
-        print "| Conteo de partidos.         |"
-        print "+-----------------------------+"
+        print "+--------------------------------+"
+        print "| Número de electos por partido. |"
+        print "+--------------------------------+"
+        hojas =arbol.xpath('/escrutinio_sitio/resultados/partido')
+        #print hojas
+        
+        for h in hojas:
+            print "Nombre del partido: "h[1].text
+            
         raw_input("Pulse enter para continuar")
+
+
+
 
     elif respuesta == "3":
         os.system('clear')
-        print "+-----------------------------+"
-        print "| Conteo de partidos.         |"
-        print "+-----------------------------+"
-        raw_input("Pulse enter para continuar")
+        print "+----------------------------------------+"
+        print "| Datos concretos de un partido.         |"
+        print "+----------------------------------------+"
+        print "Introduzca el nombre del partido sobre le que desea buscar:"
+        nonpartido = raw_input(":")
 
-    elif respuesta == "4":
+        #Creación de orden xpath:
+        orden = "escrutinio_sitio/resultados/partido/nombre[text='"+nonpartido+"']"
+        hojas =arbol.xpath(orden)
+        for h in hojas:
+            print h
+        raw_input("Pulse enter para continuar")
+"""
+ 
+
+
+   elif respuesta == "4":
         os.system('clear')
         print "+-----------------------------+"
         print "| Conteo de partidos.         |"
         print "+-----------------------------+"
         raw_input("Pulse enter para continuar")
 
-    elif respuesta == "5":
+    
+
+
+elif respuesta == "5":
         os.system('clear')
         print "+-----------------------------+"
         print "| Conteo de partidos.         |"
         print "+-----------------------------+"
         raw_input("Pulse enter para continuar")
+"""
