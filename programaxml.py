@@ -85,13 +85,16 @@ while salir == False:
         nonpartido = raw_input(":")
 
         #Creación de orden xpath:
-        orden = "escrutinio_sitio/resultados/partido/nombre[text='"+nonpartido+"']"
-        print "La orden es :" ,orden
-        hojas =arbol.xpath(orden)
+        #orden = "escrutinio_sitio/resultados/partido/nombre[text='"+nonpartido+"']"
+        #print "La orden es :" ,orden
+        raiz =arbol.getroot()
 
+        hojas = raiz.findall('escrutinio_sitio/resultados')
+        print raiz
         print hojas
         for h in hojas:
             print h.text
+            print h.find('partido/nombre').text
         raw_input("Pulse enter para continuar")
 """
  
