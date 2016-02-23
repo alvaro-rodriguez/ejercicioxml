@@ -69,7 +69,7 @@ while salir == False:
         #print hojas
         
         for h in hojas:
-            print "Nombre del partido: "h[1].text
+            print "Partido: " , h[1].text,"Electos:",h[2].text
             
         raw_input("Pulse enter para continuar")
 
@@ -86,9 +86,12 @@ while salir == False:
 
         #Creación de orden xpath:
         orden = "escrutinio_sitio/resultados/partido/nombre[text='"+nonpartido+"']"
+        print "La orden es :" ,orden
         hojas =arbol.xpath(orden)
+
+        print hojas
         for h in hojas:
-            print h
+            print h.text
         raw_input("Pulse enter para continuar")
 """
  
