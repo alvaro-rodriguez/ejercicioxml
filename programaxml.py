@@ -163,7 +163,7 @@ while salir == False:
             raiz = arbol.getroot()
             part = raiz.findall('resultados/partido')
             for p in part:
-                print p.find('nombre').text , p.findtext('electos'),"|", float(p.findtext('electos'))*100/208*"#"
+                print p.find('nombre').text , p.findtext('electos'),"|", float(p.findtext('electos'))*100/208,"%","|"+int(p.findtext('electos'))*100/208*"#"
             
             
             raw_input("Pulse enter para continuar")
