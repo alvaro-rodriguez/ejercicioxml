@@ -7,7 +7,7 @@
 
 2.Muestra el nombre da cada partido y el número de electos de cada uno.
 
-3.Pide el nombre de un partido y muestra sus datos:nombre, número de electos, porcentaje de votos.
+3.Pide el nombre de un partido y muestra sus datos:nombre, número de electos, ide de partido (porcentaje de votos),no se puede, no aparece realmente).
 
 4.Pide el número de electos y te muestra si hay, los partidos que tienen ese número.
 
@@ -87,13 +87,19 @@ while salir == False:
         hojas = raiz.findall('resultados/partido')
         for h in hojas:
             if h.find('nombre').text == nonpartido :
-                print "Partido: ", h.find('nombre').text, "Electos: ", h.find('electos').text
+                #Las dos líneas poco comprensibles que envuelven los datos sirven para que el encuadre se adapte al largo de los mismos datos.
+
+                print "+-------"+(len(h.findtext('id_partido')))*"-"+"-+-----------"+(len(h.findtext('nombre')))*"-"+"+---------"+(len(h.findtext('electos')))*"-"+"-+"
+
+                print "|Código:"+h.findtext('id_partido'), "|Partido: ", h.find('nombre').text, "|Electos: ", h.find('electos').text+"|"
+
+                print "+-------"+(len(h.findtext('id_partido')))*"-"+"-+-----------"+(len(h.findtext('nombre')))*"-"+"+---------"+(len(h.findtext('electos')))*"-"+"-+"
         raw_input("Pulse enter para continuar")
-"""
+
  
 
 
-   elif respuesta == "4":
+    elif respuesta == "4":
         os.system('clear')
         print "+-----------------------------+"
         print "| Conteo de partidos.         |"
@@ -103,10 +109,10 @@ while salir == False:
     
 
 
-elif respuesta == "5":
+    elif respuesta == "5":
         os.system('clear')
         print "+-----------------------------+"
         print "| Conteo de partidos.         |"
         print "+-----------------------------+"
         raw_input("Pulse enter para continuar")
-"""
+
