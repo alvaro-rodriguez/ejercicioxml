@@ -154,9 +154,17 @@ while salir == False:
 
             raw_input("Pulse enter para continuar")
 
-        if resp2 == "1":
+        elif resp2 == "1":
             os.system('clear')
             print "+----------------------------------+"
             print "|   Gráficos de las elecciones     |"
             print "+----------------------------------+"
+
+            raiz = arbol.getroot()
+            part = raiz.findall('escrutinio_sitio/resultados/partido')
+            for p in part:
+                print p.find('nombre').text , p.findtext('electos') , float(p.findtext('electos'))*100/208
+            
+            
             raw_input("Pulse enter para continuar")
+            
