@@ -132,7 +132,7 @@ while salir == False:
         print "| -Datos generales de la encuesta -1 |"
         print "+------------------------------------+"
 
-        resp = raw_input("Opción: ")
+        resp2 = raw_input("Opción: ")
         if resp2 == "1":
             os.system('clear')
             print "+----------------------------------+"
@@ -143,12 +143,12 @@ while salir == False:
             print "Porcentaje de votos escrutado:",raiz.findtext('porciento_escrutados')
             print "Votos contabilizados:",findtext('votos/contabilizados/cantidad')
             print "Porcentaje:",findtext('votos/contabilizados/porcentaje')+"%"
-            print "Abstenciones:",findtext('votos/Abstenciones/cantidad')
-            print "Porcentaje:",findtext('votos/contabilizados/porcentaje')+"%"
-            print "Votos nulos:",findtext('votos/contabilizados/cantidad')
-            print "Votos en blanco:",findtext('votos/contabilizados/porcentaje')+"%"
-            print "Votos contabilizados:",findtext('votos/contabilizados/cantidad')
-            print "Porcentaje:",findtext('votos/contabilizados/porcentaje')+"%"
+            print "Abstenciones:",findtext('votos/abstenciones/cantidad')
+            print "Porcentaje:",findtext('votos/abstenciones/porcentaje')+"%"
+            print "Votos nulos:",findtext('votos/nulos/cantidad')
+            print "Porcentaje:",findtext('votos/nulos/porcentaje')+"%"
+            print "Votos en blanco:",findtext('votos/blanco/cantidad')
+            print "Porcentaje:",findtext('votos/blanco/porcentaje')+"%"
             
 
             raw_input("Pulse enter para continuar")
