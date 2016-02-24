@@ -141,14 +141,14 @@ while salir == False:
             raiz =arbol.getroot()
             print "Tipo de elecciones:", raiz.findtext('nombre_lugar')
             print "Porcentaje de votos escrutado:",raiz.findtext('porciento_escrutados')
-            print "Votos contabilizados:",findtext('votos/contabilizados/cantidad')
-            print "Porcentaje:",findtext('votos/contabilizados/porcentaje')+"%"
-            print "Abstenciones:",findtext('votos/abstenciones/cantidad')
-            print "Porcentaje:",findtext('votos/abstenciones/porcentaje')+"%"
-            print "Votos nulos:",findtext('votos/nulos/cantidad')
-            print "Porcentaje:",findtext('votos/nulos/porcentaje')+"%"
-            print "Votos en blanco:",findtext('votos/blanco/cantidad')
-            print "Porcentaje:",findtext('votos/blanco/porcentaje')+"%"
+            print "Votos contabilizados:",raiz.findtext('votos/contabilizados/cantidad')
+            print "Porcentaje:",raiz.findtext('votos/contabilizados/porcentaje')+"%"
+            print "Abstenciones:",raiz.findtext('votos/abstenciones/cantidad')
+            print "Porcentaje:",raiz.findtext('votos/abstenciones/porcentaje')+"%"
+            print "Votos nulos:",raiz.findtext('votos/nulos/cantidad')
+            print "Porcentaje:",raiz.findtext('votos/nulos/porcentaje')+"%"
+            print "Votos en blanco:",raiz.findtext('votos/blanco/cantidad')
+            print "Porcentaje:",raiz.findtext('votos/blanco/porcentaje')+"%"
             
 
             raw_input("Pulse enter para continuar")
