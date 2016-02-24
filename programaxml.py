@@ -82,11 +82,11 @@ while salir == False:
         print "| Datos concretos de un partido.         |"
         print "+----------------------------------------+"
         print "Introduzca el nombre del partido sobre le que desea buscar:"
-        nonpartido = raw_input(":")    
+        nonpartido = raw_input(":")
         raiz =arbol.getroot()
         hojas = raiz.findall('resultados/partido')
         for h in hojas:
-            if h.find('nombre').text == nonpartido.upper:
+            if h.find('nombre').text == nonpartido :
                 print "Partido: ", h.find('nombre').text, "Electos: ", h.find('electos').text
         raw_input("Pulse enter para continuar")
 """
