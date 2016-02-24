@@ -32,7 +32,7 @@ salir = False
 while salir == False:
     os.system('clear')
     print "+-------------------------------------------+"
-    print "| Lector de resultados electorales.         |"
+    print "| Lector de resultados electorales pare el senado.         |"
     print "|                                           |"
     print "|  Opciones disponibles:                    |"
     print "|  -Conteo de partidos - 1                  |"
@@ -127,8 +127,29 @@ while salir == False:
 
     elif respuesta == "5":
         os.system('clear')
-        print "+-----------------------------+"
-        print "| Conteo de partidos.         |"
-        print "+-----------------------------+"
-        raw_input("Pulse enter para continuar")
+        print "+------------------------------------+"
+        print "| Otros datos.                       |"
+        print "| -Datos generales de la encuesta -1 |"
+        print "+------------------------------------+"
+
+        resp = raw_input("Opción: ")
+        if resp2 == "1":
+            os.system('clear')
+            print "+----------------------------------+"
+            print "| -Datos generales de la encuesta  |"
+            print "+----------------------------------+"
+            raiz =arbol.getroot()
+            print "Tipo de elecciones:", raiz.findtext('nombre_lugar')
+            print "Porcentaje de votos escrutado:",raiz.findtext('porciento_escrutados')
+            print "Votos contabilizados:",findtext('votos/contabilizados/cantidad')
+            print "Porcentaje:",findtext('votos/contabilizados/porcentaje')+"%"
+            print "Abstenciones:",findtext('votos/Abstenciones/cantidad')
+            print "Porcentaje:",findtext('votos/contabilizados/porcentaje')+"%"
+            print "Votos nulos:",findtext('votos/contabilizados/cantidad')
+            print "Votos en blanco:",findtext('votos/contabilizados/porcentaje')+"%"
+            print "Votos contabilizados:",findtext('votos/contabilizados/cantidad')
+            print "Porcentaje:",findtext('votos/contabilizados/porcentaje')+"%"
+            
+
+            raw_input("Pulse enter para continuar")
 
