@@ -38,8 +38,8 @@ while salir == False:
     print "|  -Conteo de partidos - 1                  |"
     print "|  -Número de electos por partido - 2       |"
     print "|  -Datos concretos de un partido - 3       |"
-    print "|  -Conteo de partidos - 4                  |"
-    print "|  -Conteo de partidos - 5                  |"
+    print "|  -Buscador por número de electos  - 4     |"
+    print "|  -Otros datos - 5                         |"
     print "|                                           |"
     print "|(Para salir usar la letra 'q')             |"
     print "+-------------------------------------------+"
@@ -101,12 +101,28 @@ while salir == False:
 
     elif respuesta == "4":
         os.system('clear')
-        print "+-----------------------------+"
-        print "| Conteo de partidos.         |"
-        print "+-----------------------------+"
-        raw_input("Pulse enter para continuar")
+        print "+-------------------------------------+"
+        print "| Buscador por número de electos      |"
+        print "+-------------------------------------+"
+        print "Introduzca el número de electos por el que quiere buscar el partido."
+        numel = raw_input("Número de electos: ")
+        raiz =arbol.getroot()
+        hojas = raiz.findall('resultados/partido')
+        banpart = False
+        lpart = []
+        for h in hojas :
+            if h.findtext('electos') == numel:
+                lpart.append(h.findtext('nombre'))
+                banpart = True
+        if banpart == True:
+            print "Partidos con %s electos:" % (numel)
+            for l in lpart:
+                print l
 
-    
+        if banpart == False:
+            print "Ningun partido tiene ese número de electos"
+
+        raw_input("Pulse enter para continuar")
 
 
     elif respuesta == "5":
