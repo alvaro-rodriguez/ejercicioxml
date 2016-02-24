@@ -130,13 +130,14 @@ while salir == False:
         print "+------------------------------------+"
         print "| Otros datos.                       |"
         print "| -Datos generales de la encuesta -1 |"
+        print "| -Gráficos de las elecciones -2     |"
         print "+------------------------------------+"
 
         resp2 = raw_input("Opción: ")
         if resp2 == "1":
             os.system('clear')
             print "+----------------------------------+"
-            print "| -Datos generales de la encuesta  |"
+            print "|  Datos generales de la encuesta  |"
             print "+----------------------------------+"
             raiz =arbol.getroot()
             print "Tipo de elecciones:", raiz.findtext('nombre_lugar')
@@ -153,3 +154,9 @@ while salir == False:
 
             raw_input("Pulse enter para continuar")
 
+        if resp2 == "1":
+            os.system('clear')
+            print "+----------------------------------+"
+            print "|   Gráficos de las elecciones     |"
+            print "+----------------------------------+"
+            raw_input("Pulse enter para continuar")
