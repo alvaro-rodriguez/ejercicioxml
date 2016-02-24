@@ -82,19 +82,12 @@ while salir == False:
         print "| Datos concretos de un partido.         |"
         print "+----------------------------------------+"
         print "Introduzca el nombre del partido sobre le que desea buscar:"
-        nonpartido = raw_input(":")
-
-        #Creación de orden xpath:
-        #orden = "escrutinio_sitio/resultados/partido/nombre[text='"+nonpartido+"']"
-        #print "La orden es :" ,orden
+        nonpartido = raw_input(":")    
         raiz =arbol.getroot()
-
-        hojas = raiz.findall('escrutinio_sitio/resultados')
-        print raiz
-        print hojas
+        hojas = raiz.findall('resultados/partido')
         for h in hojas:
-            print h.text
-            print h.find('partido/nombre').text
+            if h.find('nombre').text == nonpartido.upper:
+                print "Partido: ", h.find('nombre').text, "Electos: ", h.find('electos').text
         raw_input("Pulse enter para continuar")
 """
  
