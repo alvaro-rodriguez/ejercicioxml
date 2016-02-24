@@ -31,18 +31,18 @@ salir = False
 
 while salir == False:
     os.system('clear')
-    print "+-------------------------------------------+"
-    print "| Lector de resultados electorales pare el senado.         |"
-    print "|                                           |"
-    print "|  Opciones disponibles:                    |"
-    print "|  -Conteo de partidos - 1                  |"
-    print "|  -Número de electos por partido - 2       |"
-    print "|  -Datos concretos de un partido - 3       |"
-    print "|  -Buscador por número de electos  - 4     |"
-    print "|  -Otros datos - 5                         |"
-    print "|                                           |"
-    print "|(Para salir usar la letra 'q')             |"
-    print "+-------------------------------------------+"
+    print "+----------------------------------------------------------+"
+    print "| Lector de resultados electorales para el senado.         |"
+    print "|                                                          |"
+    print "|  Opciones disponibles:                                   |"
+    print "|  -Conteo de partidos - 1                                 |"
+    print "|  -Número de electos por partido - 2                      |"
+    print "|  -Datos concretos de un partido - 3                      |"
+    print "|  -Buscador por número de electos  - 4                    |"
+    print "|  -Otros datos - 5                                        |"
+    print "|                                                          |"
+    print "|(Para salir usar la letra 'q')                            |"
+    print "+----------------------------------------------------------+"
     respuesta = raw_input("respuesta: ")
 
     #Comprobador de respuesta
@@ -140,15 +140,15 @@ while salir == False:
             print "+----------------------------------+"
             raiz =arbol.getroot()
             print "Tipo de elecciones:", raiz.findtext('nombre_lugar')
-            print "Porcentaje de votos escrutado:",raiz.findtext('porciento_escrutados')
+            print "Porcentaje de votos escrutado:",raiz.findtext('porciento_escrutado')
             print "Votos contabilizados:",raiz.findtext('votos/contabilizados/cantidad')
             print "Porcentaje:",raiz.findtext('votos/contabilizados/porcentaje')+"%"
             print "Abstenciones:",raiz.findtext('votos/abstenciones/cantidad')
             print "Porcentaje:",raiz.findtext('votos/abstenciones/porcentaje')+"%"
             print "Votos nulos:",raiz.findtext('votos/nulos/cantidad')
             print "Porcentaje:",raiz.findtext('votos/nulos/porcentaje')+"%"
-            print "Votos en blanco:",raiz.findtext('votos/blanco/cantidad')
-            print "Porcentaje:",raiz.findtext('votos/blanco/porcentaje')+"%"
+            print "Votos en blanco:",raiz.findtext('votos/blancos/cantidad')
+            print "Porcentaje:",raiz.findtext('votos/blancos/porcentaje')+"%"
             
 
             raw_input("Pulse enter para continuar")
