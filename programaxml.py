@@ -162,9 +162,13 @@ while salir == False:
 
             raiz = arbol.getroot()
             part = raiz.findall('resultados/partido')
+            nupart = int(raw_input("Diga el número de partidos que quiere que aparezcan:"))
+            con =0
             for p in part:
                 print p.find('nombre').text , p.findtext('electos'),"|", float(p.findtext('electos'))*100/208,"%","|"+int(p.findtext('electos'))*100/208*"#"
-            
+                con = con +1
+                if con == nupart:
+                    break
             
             raw_input("Pulse enter para continuar")
             
