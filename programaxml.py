@@ -164,15 +164,17 @@ while salir == False:
             part = raiz.findall('resultados/partido')
             nupart = int(raw_input("Diga el número de partidos que quiere que aparezcan:"))
             con =0
+            print "+"+"-"*26+"+"+"---------+10-------+20-------+30-------+40-------+50-------+60-------+70"
             for p in part:
-
-                print "|"+p.find('nombre').text , p.findtext('electos'),
-                print "|", round(float(p.findtext('electos'))*100/208,2),"%",
+                print "|"+p.findtext('nombre') , p.findtext('electos'),
+                print "|"+ str(round(float(p.findtext('electos'))*100/208,2))+"%",
+                print " "*(20-(len(p.find('nombre').text)+len(p.findtext('electos'))+len(str(round(float(p.findtext('electos'))*100/208,2))))),
                 print "|"+int(p.findtext('electos'))*100/208*"="
+
                 con = con +1
-                print len(p.find('nombre').text)+len(str(round(float(p.findtext('electos'))*100/208,2)))
                 if con == nupart:
                     break
-            
+                
+            print "+"+"-"*26+"+"+"---------+10-------+20-------+30-------+40-------+50-------+60-------+70"
             raw_input("Pulse enter para continuar")
             
