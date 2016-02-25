@@ -166,8 +166,11 @@ while salir == False:
             con =0
             for p in part:
 
-                print "|",p.find('nombre').text , p.findtext('electos'),"|", float(p.findtext('electos'))*100/208,"%","|"+int(p.findtext('electos'))*100/208*"="
+                print "|"+p.find('nombre').text , p.findtext('electos'),
+                print "|", round(float(p.findtext('electos'))*100/208,2),"%",
+                print "|"+int(p.findtext('electos'))*100/208*"="
                 con = con +1
+                print len(p.find('nombre').text)+len(str(round(float(p.findtext('electos'))*100/208,2)))
                 if con == nupart:
                     break
             
