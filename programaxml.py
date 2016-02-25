@@ -141,15 +141,15 @@ while salir == False:
             print "+----------------------------------+"
             raiz =arbol.getroot()
             print "Tipo de elecciones:", raiz.findtext('nombre_lugar')
-            print "Porcentaje de votos escrutado:",raiz.findtext('porciento_escrutado')
+            print " -Porcentaje de votos escrutado:",raiz.findtext('porciento_escrutado')
             print "Votos contabilizados:",raiz.findtext('votos/contabilizados/cantidad')
-            print "Porcentaje:",raiz.findtext('votos/contabilizados/porcentaje')+"%"
+            print " -Porcentaje:",raiz.findtext('votos/contabilizados/porcentaje')+"%"
             print "Abstenciones:",raiz.findtext('votos/abstenciones/cantidad')
-            print "Porcentaje:",raiz.findtext('votos/abstenciones/porcentaje')+"%"
+            print " -Porcentaje:",raiz.findtext('votos/abstenciones/porcentaje')+"%"
             print "Votos nulos:",raiz.findtext('votos/nulos/cantidad')
-            print "Porcentaje:",raiz.findtext('votos/nulos/porcentaje')+"%"
+            print " -Porcentaje:",raiz.findtext('votos/nulos/porcentaje')+"%"
             print "Votos en blanco:",raiz.findtext('votos/blancos/cantidad')
-            print "Porcentaje:",raiz.findtext('votos/blancos/porcentaje')+"%"
+            print " -Porcentaje:",raiz.findtext('votos/blancos/porcentaje')+"%"
             
 
             raw_input("Pulse enter para continuar")
@@ -177,4 +177,7 @@ while salir == False:
                 
             print "+"+"-"*26+"+"+"---------+10-------+20-------+30-------+40-------+50-------+60-------+70"
             raw_input("Pulse enter para continuar")
-            
+
+print "++-----------------++"
+print "||Fin del programa.||"
+print "++-----------------++"
