@@ -40,6 +40,7 @@ while salir == False:
     print "|  -Datos concretos de un partido - 3                      |"
     print "|  -Buscador por número de electos  - 4                    |"
     print "|  -Otros datos - 5                                        |"
+    print "|  -Imprimir datos en formato html -6                      |"
     print "|                                                          |"
     print "|(Para salir usar la letra 'q')                            |"
     print "+----------------------------------------------------------+"
@@ -178,6 +179,46 @@ while salir == False:
             print "+"+"-"*26+"+"+"---------+10-------+20-------+30-------+40-------+50-------+60-------+70"
             raw_input("Pulse enter para continuar")
 
+    elif respuesta == "6":
+        os.system('clear')
+        print "+--------------------------------+"
+        print "| Imprimir datos en html.        |"
+        print "+--------------------------------+"
+        raiz = arbol.getroot()
+        hojas = raiz.findall('resultados/partido')
+        print "Elija el nombre que quiere dar al fichero html."
+        nomh = raw_input("Nombre: ")
+        os.mknod(nomh)
+        print "Muestra previa de los datos "
+        for h in hojas:
+            print "<h1>",h.findtext('nombre'),"</h1>"
+            print "<p>",h.findtext('electos'),"</p>"
+        print "<ul>"
+        print "    <li>",raiz.findtext('votos/contabilizados/porcentaje')+"%","</li>"
+        print "    <li>",raiz.findtext('votos/abstenciones/porcentaje')+"%","</li>"
+        print "    <li>",raiz.findtext('votos/nulos/porcentaje')+"%","</li>"
+        print "    <li>",raiz.findtext('votos/blancos/porcentaje')+"%","</li>"
+        print "</ul>"
+
+        print "Si desea guardad estos datos en un fichero escriba 'yes'."
+        resp3 = raw_input("¿Escribir datos? ")
+        if resp3 == "yes":
+            fichero = open(nomh,"r+")
+            for h in hojas:
+                fichero.write( "<h1>"+h.findtext('nombre')+"</h1>"+"\n")
+                fichero.write( "<p>"+h.findtext('electos')+"</p>"+"\n")
+            
+            fichero.write( "<ul>"+"\n")
+            fichero.write(" <li>"+raiz.findtext('votos/contabilizados/porcentaje')+"%"+"</li>"+"\n")
+            fichero.write(" <li>"+raiz.findtext('votos/abstenciones/porcentaje')+"%"+"</li>"+"\n")
+            fichero.write(" <li>"+raiz.findtext('votos/nulos/porcentaje')+"%"+"</li>"+"\n")
+            fichero.write(" <li>"+raiz.findtext('votos/blancos/porcentaje')+"%"+"</li>"+"\n")
+            fichero.write("</ul>"+"\n")
+
+            fichero.close()
+        
+                    
+        raw_input("Pulse enter para continuar")
 print "++-----------------++"
 print "||Fin del programa.||"
 print "++-----------------++"
